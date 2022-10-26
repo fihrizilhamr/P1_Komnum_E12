@@ -12,14 +12,6 @@ def fx(x):
 def scanlines(i, x, y, z, fx, fy, fz):
     print(f" {i} |" + f"{x:+.09f}|" + f"{y:+.09f}|" + f"{z:+.09f}|" + f"{fx:+.10f}|" + f"{fy:+.010f}|" + f"{fz:+.010f}")
 
-# utility
-def fDigit(x):
-    digitCount = 0
-    while (x != 0):
-        x = int(int(x) / 10)
-        digitCount += 1
-    return digitCount
-
 # intialiaze the list
 x1 = []
 x2 = []
