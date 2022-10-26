@@ -10,7 +10,7 @@ def fx(x):
 
 # formatted print
 def scanlines(i, x, y, z, fx, fy, fz):
-    print(f" {i} |" + f"{x:+.07f}|" + f"{y:+.07f}|" + f"{z:+.07f}|" + f"{fx:+.8f}|" + f"{fy:+.08f}|" + f"{fz:+.08f}")
+    print(f" {i} |" + f"{x:+.09f}|" + f"{y:+.09f}|" + f"{z:+.09f}|" + f"{fx:+.10f}|" + f"{fy:+.010f}|" + f"{fz:+.010f}")
 
 # utility
 def fDigit(x):
